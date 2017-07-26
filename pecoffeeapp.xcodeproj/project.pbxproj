@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5E7B49C1F295ABF00D630AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B49B1F295ABF00D630AB /* AppDelegate.swift */; };
+		B5E7B49E1F295ABF00D630AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B49D1F295ABF00D630AB /* ViewController.swift */; };
+		B5E7B4A11F295ABF00D630AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E7B49F1F295ABF00D630AB /* Main.storyboard */; };
+		B5E7B4A31F295ABF00D630AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E7B4A21F295ABF00D630AB /* Assets.xcassets */; };
+		B5E7B4A61F295ABF00D630AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E7B4A41F295ABF00D630AB /* LaunchScreen.storyboard */; };
+		B5E7B4B11F295ABF00D630AB /* pecoffeeappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B4B01F295ABF00D630AB /* pecoffeeappTests.swift */; };
+		B5E7B4BC1F295AC000D630AB /* pecoffeeappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B4BB1F295AC000D630AB /* pecoffeeappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5E7B4AD1F295ABF00D630AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E7B4901F295ABF00D630AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E7B4971F295ABF00D630AB;
+			remoteInfo = pecoffeeapp;
+		};
+		B5E7B4B81F295AC000D630AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E7B4901F295ABF00D630AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E7B4971F295ABF00D630AB;
+			remoteInfo = pecoffeeapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5E7B4981F295ABF00D630AB /* pecoffeeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pecoffeeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E7B49B1F295ABF00D630AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5E7B49D1F295ABF00D630AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5E7B4A01F295ABF00D630AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5E7B4A21F295ABF00D630AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5E7B4A51F295ABF00D630AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5E7B4A71F295ABF00D630AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E7B4AC1F295ABF00D630AB /* pecoffeeappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pecoffeeappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E7B4B01F295ABF00D630AB /* pecoffeeappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pecoffeeappTests.swift; sourceTree = "<group>"; };
+		B5E7B4B21F295ABF00D630AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E7B4B71F295ABF00D630AB /* pecoffeeappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pecoffeeappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E7B4BB1F295AC000D630AB /* pecoffeeappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pecoffeeappUITests.swift; sourceTree = "<group>"; };
+		B5E7B4BD1F295AC000D630AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5E7B4951F295ABF00D630AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E7B4A91F295ABF00D630AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E7B4B41F295ABF00D630AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5E7B48F1F295ABF00D630AB = {
+			isa = PBXGroup;
+			children = (
+				B5E7B49A1F295ABF00D630AB /* pecoffeeapp */,
+				B5E7B4AF1F295ABF00D630AB /* pecoffeeappTests */,
+				B5E7B4BA1F295AC000D630AB /* pecoffeeappUITests */,
+				B5E7B4991F295ABF00D630AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5E7B4991F295ABF00D630AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5E7B4981F295ABF00D630AB /* pecoffeeapp.app */,
+				B5E7B4AC1F295ABF00D630AB /* pecoffeeappTests.xctest */,
+				B5E7B4B71F295ABF00D630AB /* pecoffeeappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5E7B49A1F295ABF00D630AB /* pecoffeeapp */ = {
+			isa = PBXGroup;
+			children = (
+				B5E7B49B1F295ABF00D630AB /* AppDelegate.swift */,
+				B5E7B49D1F295ABF00D630AB /* ViewController.swift */,
+				B5E7B49F1F295ABF00D630AB /* Main.storyboard */,
+				B5E7B4A21F295ABF00D630AB /* Assets.xcassets */,
+				B5E7B4A41F295ABF00D630AB /* LaunchScreen.storyboard */,
+				B5E7B4A71F295ABF00D630AB /* Info.plist */,
+			);
+			path = pecoffeeapp;
+			sourceTree = "<group>";
+		};
+		B5E7B4AF1F295ABF00D630AB /* pecoffeeappTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5E7B4B01F295ABF00D630AB /* pecoffeeappTests.swift */,
+				B5E7B4B21F295ABF00D630AB /* Info.plist */,
+			);
+			path = pecoffeeappTests;
+			sourceTree = "<group>";
+		};
+		B5E7B4BA1F295AC000D630AB /* pecoffeeappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5E7B4BB1F295AC000D630AB /* pecoffeeappUITests.swift */,
+				B5E7B4BD1F295AC000D630AB /* Info.plist */,
+			);
+			path = pecoffeeappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5E7B4971F295ABF00D630AB /* pecoffeeapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E7B4C01F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeapp" */;
+			buildPhases = (
+				B5E7B4941F295ABF00D630AB /* Sources */,
+				B5E7B4951F295ABF00D630AB /* Frameworks */,
+				B5E7B4961F295ABF00D630AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pecoffeeapp;
+			productName = pecoffeeapp;
+			productReference = B5E7B4981F295ABF00D630AB /* pecoffeeapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5E7B4AB1F295ABF00D630AB /* pecoffeeappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E7B4C31F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeappTests" */;
+			buildPhases = (
+				B5E7B4A81F295ABF00D630AB /* Sources */,
+				B5E7B4A91F295ABF00D630AB /* Frameworks */,
+				B5E7B4AA1F295ABF00D630AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E7B4AE1F295ABF00D630AB /* PBXTargetDependency */,
+			);
+			name = pecoffeeappTests;
+			productName = pecoffeeappTests;
+			productReference = B5E7B4AC1F295ABF00D630AB /* pecoffeeappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5E7B4B61F295ABF00D630AB /* pecoffeeappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E7B4C61F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeappUITests" */;
+			buildPhases = (
+				B5E7B4B31F295ABF00D630AB /* Sources */,
+				B5E7B4B41F295ABF00D630AB /* Frameworks */,
+				B5E7B4B51F295ABF00D630AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E7B4B91F295AC000D630AB /* PBXTargetDependency */,
+			);
+			name = pecoffeeappUITests;
+			productName = pecoffeeappUITests;
+			productReference = B5E7B4B71F295ABF00D630AB /* pecoffeeappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5E7B4901F295ABF00D630AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Positive Energy Coffee";
+				TargetAttributes = {
+					B5E7B4971F295ABF00D630AB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PXHC55BAX6;
+						ProvisioningStyle = Automatic;
+					};
+					B5E7B4AB1F295ABF00D630AB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PXHC55BAX6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5E7B4971F295ABF00D630AB;
+					};
+					B5E7B4B61F295ABF00D630AB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PXHC55BAX6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5E7B4971F295ABF00D630AB;
+					};
+				};
+			};
+			buildConfigurationList = B5E7B4931F295ABF00D630AB /* Build configuration list for PBXProject "pecoffeeapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5E7B48F1F295ABF00D630AB;
+			productRefGroup = B5E7B4991F295ABF00D630AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5E7B4971F295ABF00D630AB /* pecoffeeapp */,
+				B5E7B4AB1F295ABF00D630AB /* pecoffeeappTests */,
+				B5E7B4B61F295ABF00D630AB /* pecoffeeappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5E7B4961F295ABF00D630AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E7B4A61F295ABF00D630AB /* LaunchScreen.storyboard in Resources */,
+				B5E7B4A31F295ABF00D630AB /* Assets.xcassets in Resources */,
+				B5E7B4A11F295ABF00D630AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E7B4AA1F295ABF00D630AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E7B4B51F295ABF00D630AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5E7B4941F295ABF00D630AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E7B49E1F295ABF00D630AB /* ViewController.swift in Sources */,
+				B5E7B49C1F295ABF00D630AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E7B4A81F295ABF00D630AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E7B4B11F295ABF00D630AB /* pecoffeeappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E7B4B31F295ABF00D630AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E7B4BC1F295AC000D630AB /* pecoffeeappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5E7B4AE1F295ABF00D630AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E7B4971F295ABF00D630AB /* pecoffeeapp */;
+			targetProxy = B5E7B4AD1F295ABF00D630AB /* PBXContainerItemProxy */;
+		};
+		B5E7B4B91F295AC000D630AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E7B4971F295ABF00D630AB /* pecoffeeapp */;
+			targetProxy = B5E7B4B81F295AC000D630AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5E7B49F1F295ABF00D630AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E7B4A01F295ABF00D630AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5E7B4A41F295ABF00D630AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E7B4A51F295ABF00D630AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5E7B4BE1F295AC000D630AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5E7B4BF1F295AC000D630AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5E7B4C11F295AC000D630AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PXHC55BAX6;
+				INFOPLIST_FILE = pecoffeeapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positiveenergycoffee.pecoffeeapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5E7B4C21F295AC000D630AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PXHC55BAX6;
+				INFOPLIST_FILE = pecoffeeapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positiveenergycoffee.pecoffeeapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B5E7B4C41F295AC000D630AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PXHC55BAX6;
+				INFOPLIST_FILE = pecoffeeappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positiveenergycoffee.pecoffeeappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pecoffeeapp.app/pecoffeeapp";
+			};
+			name = Debug;
+		};
+		B5E7B4C51F295AC000D630AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PXHC55BAX6;
+				INFOPLIST_FILE = pecoffeeappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positiveenergycoffee.pecoffeeappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pecoffeeapp.app/pecoffeeapp";
+			};
+			name = Release;
+		};
+		B5E7B4C71F295AC000D630AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PXHC55BAX6;
+				INFOPLIST_FILE = pecoffeeappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positiveenergycoffee.pecoffeeappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pecoffeeapp;
+			};
+			name = Debug;
+		};
+		B5E7B4C81F295AC000D630AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PXHC55BAX6;
+				INFOPLIST_FILE = pecoffeeappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positiveenergycoffee.pecoffeeappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pecoffeeapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5E7B4931F295ABF00D630AB /* Build configuration list for PBXProject "pecoffeeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E7B4BE1F295AC000D630AB /* Debug */,
+				B5E7B4BF1F295AC000D630AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E7B4C01F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E7B4C11F295AC000D630AB /* Debug */,
+				B5E7B4C21F295AC000D630AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5E7B4C31F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E7B4C41F295AC000D630AB /* Debug */,
+				B5E7B4C51F295AC000D630AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5E7B4C61F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E7B4C71F295AC000D630AB /* Debug */,
+				B5E7B4C81F295AC000D630AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5E7B4901F295ABF00D630AB /* Project object */;
+}
