@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5935E901F3A690100C1AFDE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5935E8F1F3A690100C1AFDE /* HomeViewController.swift */; };
+		B5935E941F3A72C700C1AFDE /* AvailableRoastsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5935E931F3A72C700C1AFDE /* AvailableRoastsTableViewCell.xib */; };
+		B5935E961F3A75BF00C1AFDE /* AvailableRoastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5935E951F3A75BF00C1AFDE /* AvailableRoastsViewController.swift */; };
+		B5935E981F3A7C7600C1AFDE /* AvailableRoastsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5935E971F3A7C7600C1AFDE /* AvailableRoastsTableViewCell.swift */; };
 		B5E7B49C1F295ABF00D630AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B49B1F295ABF00D630AB /* AppDelegate.swift */; };
 		B5E7B49E1F295ABF00D630AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B49D1F295ABF00D630AB /* ViewController.swift */; };
 		B5E7B4A11F295ABF00D630AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E7B49F1F295ABF00D630AB /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5935E8F1F3A690100C1AFDE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B5935E931F3A72C700C1AFDE /* AvailableRoastsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvailableRoastsTableViewCell.xib; sourceTree = "<group>"; };
+		B5935E951F3A75BF00C1AFDE /* AvailableRoastsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableRoastsViewController.swift; sourceTree = "<group>"; };
+		B5935E971F3A7C7600C1AFDE /* AvailableRoastsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableRoastsTableViewCell.swift; sourceTree = "<group>"; };
 		B5E7B4981F295ABF00D630AB /* pecoffeeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pecoffeeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7B49B1F295ABF00D630AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E7B49D1F295ABF00D630AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 				B5E7B49B1F295ABF00D630AB /* AppDelegate.swift */,
 				B5E7B49D1F295ABF00D630AB /* ViewController.swift */,
 				B5E7B49F1F295ABF00D630AB /* Main.storyboard */,
+				B5935E951F3A75BF00C1AFDE /* AvailableRoastsViewController.swift */,
+				B5935E931F3A72C700C1AFDE /* AvailableRoastsTableViewCell.xib */,
+				B5935E971F3A7C7600C1AFDE /* AvailableRoastsTableViewCell.swift */,
+				B5935E8F1F3A690100C1AFDE /* HomeViewController.swift */,
 				B5E7B4A21F295ABF00D630AB /* Assets.xcassets */,
 				B5E7B4A41F295ABF00D630AB /* LaunchScreen.storyboard */,
 				B5E7B4A71F295ABF00D630AB /* Info.plist */,
@@ -236,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E7B4A61F295ABF00D630AB /* LaunchScreen.storyboard in Resources */,
+				B5935E941F3A72C700C1AFDE /* AvailableRoastsTableViewCell.xib in Resources */,
 				B5E7B4A31F295ABF00D630AB /* Assets.xcassets in Resources */,
 				B5E7B4A11F295ABF00D630AB /* Main.storyboard in Resources */,
 			);
@@ -264,6 +277,9 @@
 			files = (
 				B5E7B49E1F295ABF00D630AB /* ViewController.swift in Sources */,
 				B5E7B49C1F295ABF00D630AB /* AppDelegate.swift in Sources */,
+				B5935E981F3A7C7600C1AFDE /* AvailableRoastsTableViewCell.swift in Sources */,
+				B5935E961F3A75BF00C1AFDE /* AvailableRoastsViewController.swift in Sources */,
+				B5935E901F3A690100C1AFDE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +532,7 @@
 				B5E7B4C21F295AC000D630AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5E7B4C31F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeappTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				B5E7B4C51F295AC000D630AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5E7B4C61F295AC000D630AB /* Build configuration list for PBXNativeTarget "pecoffeeappUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				B5E7B4C81F295AC000D630AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
